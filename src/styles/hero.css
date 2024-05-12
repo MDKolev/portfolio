@@ -1,0 +1,61 @@
+.mass-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 70%;
+  height: 100vh;
+}
+
+.text-container h2 {
+  margin:0;
+  font-size: 4rem;
+  padding-right: 4rem;
+  padding-bottom: 3rem;
+}
+
+.text-container span {
+  font-size: 1.25rem;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.profile-image {
+  border-radius: 25%;
+  transition: 1s;
+}
+
+.profile-image:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 1s ease;
+}
+
+.tech-stack {
+  display: flex;
+  align-items: center;
+  padding-top: 1.5rem;
+}
+
+.tech-stack img {
+  padding: 0 0.5rem;
+  transition: .5s;
+}
+
+.tech-stack img:hover {
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);
+  transition: 1s ease;
+}

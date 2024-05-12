@@ -1,0 +1,41 @@
+.max-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutme-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+.aboutme-container img {
+    border-radius: 6rem;
+    transition: 1s ease;
+}
+
+.aboutme-container img:hover {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    transition: 1s ease;
+}
+
+.about-me-container {
+    padding: 2rem;
+}
+
+.about-me-container h3 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.about-me-container span {
+    font-size: 1.25rem;
+}
+
+.about-me-container b {
+    text-decoration: underline;
+}
