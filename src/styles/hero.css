@@ -30,6 +30,10 @@
   align-items: center;
 }
 
+.logo-container a {
+  margin: 1rem 0.5rem;
+}
+
 .profile-image {
   border-radius: 25%;
   transition: 1s;

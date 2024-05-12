@@ -9,7 +9,7 @@ const AboutMe = () => {
         <div className="about-me-container">
           <h3>About Me</h3>
           <span>
-            I'm a highly <b>ambitious</b>  and <b>hard-working</b> individual who has no
+            I'm a highly <b>ambitious</b>, <b>disciplined</b> and <b>hard-working</b> individual who has no
             practical experience as a developer, yet study and practice every
             day. Currently, I'm studying JavaScript and working on solving
             coding challenges and understanding how to implement different

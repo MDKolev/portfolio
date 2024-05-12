@@ -1,5 +1,4 @@
-import githublogo from "../assets/githublogo.svg";
-import linkedinlogo from "../assets/linkedinlogo.svg";
+import githublogo from "../assets/github-logo.svg";
 import profile from "../assets/profile.png";
 import javascriptLogo from "../assets/javascript-icon.png";
 import reactLogo from "../assets/react-logo.svg";
@@ -31,9 +30,6 @@ const Hero = () => {
           <div className="logo-container">
             <a href="https://github.com/MDKolev">
               <img src={githublogo} alt="github-logo" />
-            </a>
-            <a href="">
-              <img src={linkedinlogo} alt="linkedin-logo" />
             </a>
           </div>
         </div>
