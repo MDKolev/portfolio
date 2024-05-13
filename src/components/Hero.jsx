@@ -5,6 +5,7 @@ import reactLogo from "../assets/react-logo.svg";
 import htmlLogo from "../assets/html-logo.svg";
 import cssLogo from "../assets/css-logo.svg";
 import javaLogo from "../assets/java-logo.svg";
+import springLogo from '../assets/spring-logo.svg'
 import "../styles/hero.css";
 
 const Hero = () => {
@@ -21,11 +22,12 @@ const Hero = () => {
           </span>
           <span className="tech-stack">
             Tech Stack |
-            <img src={javascriptLogo} alt="" />
-            <img src={reactLogo} alt="" />
-            <img src={htmlLogo} alt="" />
-            <img src={cssLogo} alt="" />
-            <img src={javaLogo} alt="" />
+            <img className="tech-logo" src={javascriptLogo} alt="" />
+            <img className="tech-logo-react" src={reactLogo} alt="" />
+            <img className="tech-logo" src={htmlLogo} alt="" />
+            <img className="tech-logo-css" src={cssLogo} alt="" />
+            <img className="tech-logo" src={javaLogo} alt="" />
+            <img className="tech-logo-spring" src={springLogo} alt="" />
           </span>
           <div className="logo-container">
             <a href="https://github.com/MDKolev">

@@ -54,12 +54,20 @@
 
 .tech-stack img {
   padding: 0 0.5rem;
-  transition: .5s;
+  animation: anime 1s infinite ease-in-out alternate;
+  -webkit-animation: anime 1s infinite ease-in-out alternate;
 }
 
-.tech-stack img:hover {
-  -webkit-transform: scale(1.5);
-  -ms-transform: scale(1.5);
-  transform: scale(1.5);
-  transition: 1s ease;
+.tech-stack img.tech-logo {
+  animation-delay: .3s;
 }
+
+ @keyframes anime {
+  100% {
+    transform: translateY(10px);
+    -webkit-transform: translateY(10px);
+    -moz-transform: translateY(10px);
+    -ms-transform: translateY(10px);
+    -o-transform: translateY(10px);
+  }
+ }

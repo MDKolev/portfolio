@@ -1,0 +1,60 @@
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 85vh;
+}
+
+.form-container h2 {
+    font-size: 3rem;
+    display: flex;
+    margin: 0;
+}
+
+.form-container .email {
+    padding-bottom: 3rem;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.form-container .email-logo {
+    padding-right: 2rem;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:  rgba(195,178,22,1);
+    align-items: center;
+    width: 30vw;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+.form-container .user-name-input, .user-email-input, .message-input {
+    width: 95%;
+    height: 40px;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: .5rem;
+}
+
+.form-container .message-input {
+    width: 95%;
+    height: 200px;
+    font-size: 1.5rem;
+}
+
+.form-container label {
+    font-size: 1.25rem;
+}
+
+.form-container .submit-button {
+    padding: 12px 60px;
+    border-radius: .5rem;
+    cursor: pointer;
+    background-color: black;
+}

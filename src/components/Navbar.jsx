@@ -2,7 +2,7 @@ import '../styles/navbar.css'
 
 const Navbar = () => {
   return (
-    <nav className="nav">
+    <nav id="navbar" className="nav">
       <ul>
         <li>
           <a href="">Home</a>
@@ -14,7 +14,7 @@ const Navbar = () => {
           <a href="">Projects</a>
         </li>
         <li>
-          <a href="">Contacts</a>
+          <a href="">Contact</a>
         </li>
       </ul>
     </nav>
