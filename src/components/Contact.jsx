@@ -24,7 +24,7 @@ const Contact = () => {
   };
   return (
     <>
-      <div className="form-container">
+      <div id="contact" className="form-container">
         <h2>Send Me An Email</h2>
         <div className="email">
           <img className="email-logo" src={emailLogo} alt="" />

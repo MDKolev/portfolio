@@ -38,5 +38,6 @@
   font-size: 1.5rem;
   font-weight: bold;
   font-family: monospace;
-  color: white
+  color: white;
+  cursor: pointer;
 }

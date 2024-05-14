@@ -5,19 +5,19 @@
     height: 60vh;
 }
 
-.aboutme-container {
+.items-container {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 70%;
 }
 
-.aboutme-container img {
+.items-container img {
     border-radius: 6rem;
     transition: 1s ease;
 }
 
-.aboutme-container img:hover {
+.items-container img:hover {
     -webkit-transform: scale(1.05);
     -ms-transform: scale(1.05);
     transform: scale(1.05);

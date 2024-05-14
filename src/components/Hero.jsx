@@ -10,7 +10,7 @@ import "../styles/hero.css";
 
 const Hero = () => {
   return (
-    <div className="mass-container">
+    <div id="home" className="mass-container">
       <div className="hero-container">
         <div className="text-container">
           <h2>
