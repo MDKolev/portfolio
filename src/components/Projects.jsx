@@ -1,39 +1,61 @@
 import brainwave from "../assets/brainwave.png";
 import ecomShop from "../assets/ecom-shop.png";
+import codeLogo from "../assets/code-logo.png";
+import liveDemo from "../assets/live-demo.png";
 import "../styles/projects.css";
 
 const Projects = () => {
   return (
-    <section id="projects" className="projects-container">
+    <div id="projects" className="projects-container">
       <div className="projects-list">
         <h3>My Projects</h3>
         <div className="project-item">
           <a href="https://react-brainwave.netlify.app/">
-            <img src={brainwave} alt="" />
+            <img className="project-image" src={brainwave} alt="" />
           </a>
           <span>
             {" "}
-            <b>Brainwave</b> Lorem ipsum, dolor sit amet consectetur adipisicing
-            elit. Ad deleniti ut repellat consequatur accusamus temporibus
-            suscipit vel consectetur accusantium cumque, magni id perspiciatis
-            rerum aut repellendus voluptatum? Nam, eaque eligendi?{" "}
+            The <b>Brainwave</b> project represents a deliberate endeavor on my
+            part to delve into contemporary web design layouts, explore advanced
+            techniques in web development, and harness the capabilities of
+            TypeScript. <br />
+            <div className="project-link-container">
+              <a className="project-link-item" href="https://github.com/MDKolev/brainwave">
+                <img src={codeLogo} alt="" />
+              </a>
+              <p>Source Code</p>
+              <a className="project-link-item" href="https://react-brainwave.netlify.app/">
+                <img src={liveDemo} alt="" />
+              </a>
+              <p>Live Demo</p>
+            </div>
           </span>
         </div>
         <div className="project-item">
           <a href="https://project-ecom-shop.netlify.app/">
-            <img src={ecomShop} alt="" />
+            <img className="project-image" src={ecomShop} alt="" />
           </a>
           <span>
             {" "}
-            <b>Ecommerce Shop</b> Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Ratione recusandae voluptates fugit. Molestias
-            doloremque aliquid facere, molestiae quidem minima quibusdam
-            voluptate similique voluptas autem voluptatem distinctio quisquam
-            ullam rem iusto.{" "}
+            The <b>Ecommerce Shop</b> project served as a platform for me to
+            delve into best practices in React, gain insight into project
+            structure, and familiarize myself with backend development aspects,
+            encompassing a comprehensive understanding of it's complexities.{" "}
+            <br />
+            <div className="project-link-container">
+              <a className="project-link-item" href="https://github.com/MDKolev/digital-shopping">
+                <img src={codeLogo} alt="" />
+              </a>
+              <p>Source Code</p>
+              <a className="project-link-item" href="https://project-ecom-shop.netlify.app/">
+                <img src={liveDemo} alt="" />
+              </a>
+              <p>Live Demo</p>
+            </div>
           </span>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 

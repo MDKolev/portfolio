@@ -1,8 +1,8 @@
-.max-container {
+.container {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 60vh;
+    height: 80vh;
 }
 
 .items-container {
@@ -24,19 +24,102 @@
     transition: 1s ease;
 }
 
-.about-me-container {
+.about-me-description {
     padding: 2rem;
 }
 
-.about-me-container h3 {
+.about-me-description h3 {
     font-size: 3rem;
     margin: 0;
+    color: #FFD700;
 }
 
-.about-me-container span {
+.about-me-description span {
     font-size: 1.25rem;
 }
 
-.about-me-container b {
+.about-me-description b {
     text-decoration: underline;
 }
+
+@media (max-width:480px) {
+    .items-container {
+        width: 100%;
+        padding-bottom: 2rem;
+    }
+
+    .items-container img {
+        display: none;
+    }
+
+    .about-me-description h3 {
+        text-align: center;
+    }
+    
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .container {
+        flex-wrap: wrap;
+    }
+
+    .items-container img{
+        display: none;
+    }
+    
+    .items-container h3 {
+        text-align: center;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .container {
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100%;
+        margin-bottom: 10rem;
+    }
+
+    .items-container {
+        width: 100%;
+        margin: 1rem;
+    }
+
+    .items-container img {
+        width: 450px;
+    }
+
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .container {
+        width: 100%;
+    }
+
+    .items-container {
+        width: 90%;
+    }
+ }
+
+ @media (min-width: 1440px) and (max-width:1920px) {
+    .container {
+        width: 100%;
+    }
+
+    .items-container {
+        width: 100%;
+        margin: 6rem;
+    }
+
+    .about-me-description h3 {
+        font-size: 3rem;    
+    }
+
+    .about-me-description span {
+        font-size: 1.4rem;
+    }
+
+    .items-container img {
+        width: 550px;
+    }
+ }

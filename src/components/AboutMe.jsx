@@ -3,13 +3,13 @@ import "../styles/aboutme.css";
 
 const AboutMe = () => {
   return (
-    <div id="about-me" className="max-container">
+    <div id="about-me" className="container">
       <div className="items-container">
         <img src={codeImage} alt="" />
-        <div className="about-me-container">
+        <div className="about-me-description">
           <h3>About Me</h3>
           <span>
-            I'm a highly <b>ambitious</b>, <b>discipline</b> and <b>hard-working</b> individual who has no
+            I'm a  <b>highly ambitious</b>, <b>disciplined</b> and <b>hard-working</b> individual who has no
             practical experience as a developer, yet study and practice every
             day. Currently, I'm studying JavaScript and working on solving
             coding challenges and understanding how to implement different
