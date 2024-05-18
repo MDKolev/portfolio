@@ -17,6 +17,7 @@
     font-size: 1.5rem;
     display: flex;
     align-items: center;
+    color: white;
 }
 
 .form-container .email-logo {
@@ -32,6 +33,7 @@
     width: 30vw;
     padding: 1rem;
     border-radius: .5rem;
+    color: white;
 }
 
 .form-container .user-name-input, .user-email-input, .message-input {
@@ -40,6 +42,7 @@
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
     border-radius: .5rem;
+    background-color: grey;
 }
 
 .form-container .message-input {
@@ -57,6 +60,7 @@
     border-radius: .5rem;
     cursor: pointer;
     background-color: black;
+    color: white;
 }
 
 
