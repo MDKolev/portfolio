@@ -14,7 +14,7 @@ const Hero = () => {
       <div className="hero-container">
         <div className="text-container">
           <h2>
-            Dummy text representing<br></br> what i apply for
+            Ambitions, Driven, Enthusiastic
           </h2>
           <span className="description">
             Hi, I'm <strong>Marian Kolev</strong>. An aspiring developer based
