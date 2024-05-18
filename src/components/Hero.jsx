@@ -14,7 +14,7 @@ const Hero = () => {
       <div className="hero-container">
         <div className="text-container">
           <h2>
-            Ambitions, Driven, Enthusiastic
+            Ambitious, Driven, Enthusiastic
           </h2>
           <span className="description">
             Hi, I'm <strong>Marian Kolev</strong>. An aspiring developer based
