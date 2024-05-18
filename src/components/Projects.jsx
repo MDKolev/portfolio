@@ -32,7 +32,7 @@ const Projects = () => {
           </span>
         </div>
         <div className="project-item">
-          <a href="https://project-ecom-shop.netlify.app/">
+          <a href="https://ecom-shop-demo.netlify.app/">
             <img className="project-image" src={ecomShop} alt="" />
           </a>
           <span>
@@ -47,7 +47,7 @@ const Projects = () => {
                 <img src={codeLogo} alt="" />
               </a>
               <p>Source Code</p>
-              <a className="project-link-item" href="https://project-ecom-shop.netlify.app/">
+              <a className="project-link-item" href="https://ecom-shop-demo.netlify.app/">
                 <img src={liveDemo} alt="" />
               </a>
               <p>Live Demo</p>
