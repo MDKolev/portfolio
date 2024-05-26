@@ -16,7 +16,7 @@
 .projects-list .project-image {
     width: 400px;
     border-radius: 2rem;
-    padding-right: 1rem;
+    margin-right: 1rem;
     transition: 1s;
 }
 
@@ -131,7 +131,6 @@ h3 {
     margin-top: 4rem;
  }
 }
-
 
 @media (min-width: 1440px) and (max-width:1920px) {
  .projects-container {
