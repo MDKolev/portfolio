@@ -18,7 +18,7 @@ const Projects = () => {
             The <b>Brainwave</b> project represents a deliberate endeavor on my
             part to delve into contemporary web design layouts, explore advanced
             techniques in web development, and harness the capabilities of
-            TypeScript. <br />
+            Tailwind. <br />
             <div className="project-link-container">
               <a className="project-link-item" href="https://github.com/MDKolev/brainwave">
                 <img src={codeLogo} alt="" />
