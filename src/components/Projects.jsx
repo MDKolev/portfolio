@@ -5,6 +5,8 @@ import liveDemo from "../assets/live-demo.png";
 import "../styles/projects.css";
 import Brainwave from "./projects/Brainwave";
 import EcomShop from "./projects/EcomShop";
+import Jsonplaceholder from "./projects/Jsonplaceholder";
+import JsonplaceholderImage from "../assets/jsonplaceholder-api.png";
 
 const Projects = () => {
   return (
@@ -26,6 +28,16 @@ const Projects = () => {
             demoUrl={`https://ecom-shop-demo.netlify.app/`}
             image={ecomShop}
             githubUrl={`https://github.com/MDKolev/digital-shopping`}
+            codeLogo={codeLogo}
+            liveDemo={liveDemo}
+          />
+        </div>
+
+        <div className="project-item">
+          <Jsonplaceholder
+            demoUrl={`https://jsonplaceholder-api.netlify.app/`}
+            image={JsonplaceholderImage}
+            githubUrl={`https://github.com/MDKolev/jsonplaceholder-api`}
             codeLogo={codeLogo}
             liveDemo={liveDemo}
           />
