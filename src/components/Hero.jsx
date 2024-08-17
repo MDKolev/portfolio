@@ -6,6 +6,8 @@ import htmlLogo from "../assets/html-logo.svg";
 import cssLogo from "../assets/css-logo.svg";
 import javaLogo from "../assets/java-logo.svg";
 import springLogo from "../assets/spring-logo.svg";
+import flutterLogo from "../assets/flutter-logo.svg";
+import dartLogo from "../assets/dart-logo.svg";
 import "../styles/hero.css";
 
 const Hero = () => {
@@ -17,8 +19,7 @@ const Hero = () => {
             Ambitious, Driven, Enthusiastic
           </h2>
           <span className="description">
-            Hi, I'm <strong>Marian Kolev</strong>. An aspiring developer based
-            in Plovdiv, Bulgaria.
+            Hi, I'm <strong>Marian Kolev</strong>. An aspiring developer from Bulgaria.
           </span>
           <span className="tech-stack">
             <p>| Tech Stack |</p>
@@ -29,6 +30,8 @@ const Hero = () => {
               <img className="tech-logo-css" src={cssLogo} alt="" />
               <img className="tech-logo" src={javaLogo} alt="" />
               <img className="tech-logo-spring" src={springLogo} alt="" />
+              <img className="tech-logo" src={flutterLogo} alt="" />
+              <img className="tech-logo-dart" src={dartLogo} alt="" />
             </div>
           </span>
           <div className="logo-container">

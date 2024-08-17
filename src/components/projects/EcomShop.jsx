@@ -12,17 +12,17 @@ const EcomShop = ({ demoUrl, image, githubUrl, codeLogo, liveDemo }) => {
         into best practices in React, gain insight into project structure, and
         familiarize myself with backend development aspects, encompassing a
         comprehensive understanding of it's complexities. <br />
-        <div className="project-link-container">
-          <a className="project-link-item" href={githubUrl}>
-            <img src={codeLogo} alt="" />
-          </a>
-          <p>Source Code</p>
-          <a className="project-link-item" href={demoUrl}>
-            <img src={liveDemo} alt="" />
-          </a>
-          <p>Live Demo</p>
-        </div>
       </span>
+      <div className="project-link-container">
+        <a className="project-link-item" href={githubUrl}>
+          <img src={codeLogo} alt="" />
+        </a>
+        <p>Source Code</p>
+        <a className="project-link-item" href={demoUrl}>
+          <img src={liveDemo} alt="" />
+        </a>
+        <p>Live Demo</p>
+      </div>
     </div>
   );
 };

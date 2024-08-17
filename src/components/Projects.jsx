@@ -1,47 +1,59 @@
+import React from "react";
 import brainwave from "../assets/brainwave.png";
 import ecomShop from "../assets/ecom-shop.png";
 import codeLogo from "../assets/code-logo.png";
 import liveDemo from "../assets/live-demo.png";
-import "../styles/projects.css";
-import Brainwave from "./projects/Brainwave";
-import EcomShop from "./projects/EcomShop";
-import Jsonplaceholder from "./projects/Jsonplaceholder";
 import JsonplaceholderImage from "../assets/jsonplaceholder-api.png";
+import expenseTracker from "../assets/expense-tracker.png";
+import ProjectCard from "./ProjectCard";
+import "../styles/projects.css";
 
 const Projects = () => {
+  const projects = [
+    {
+      demoUrl: "https://online-web-expense-tracker.netlify.app/",
+      image: expenseTracker,
+      githubUrl: "https://github.com/MDKolev/expense-tracker",
+      codeLogo: codeLogo,
+      liveDemo: liveDemo,
+    },
+    {
+      demoUrl: "https://react-brainwave.netlify.app/",
+      image: brainwave,
+      githubUrl: "https://github.com/MDKolev/brainwave",
+      codeLogo: codeLogo,
+      liveDemo: liveDemo,
+    },
+    {
+      demoUrl: "https://ecom-shop-demo.netlify.app/",
+      image: ecomShop,
+      githubUrl: "https://github.com/MDKolev/digital-shopping",
+      codeLogo: codeLogo,
+      liveDemo: liveDemo,
+    },
+    {
+      demoUrl: "https://jsonplaceholder-api.netlify.app/",
+      image: JsonplaceholderImage,
+      githubUrl: "https://github.com/MDKolev/jsonplaceholder-api",
+      codeLogo: codeLogo,
+      liveDemo: liveDemo,
+    },
+  ];
+
   return (
     <div id="projects" className="projects-container">
-      <div className="projects-list">
-        <h3>My Projects</h3>
-        <div className="project-item">
-          <Brainwave
-            demoUrl={`https://react-brainwave.netlify.app/`}
-            image={brainwave}
-            githubUrl={`https://github.com/MDKolev/brainwave`}
-            codeLogo={codeLogo}
-            liveDemo={liveDemo}
+      <h3>My Projects</h3>
+      <div className="projects-grid">
+        {projects.map((project, index) => (
+          <ProjectCard
+            key={index}
+            demoUrl={project.demoUrl}
+            image={project.image}
+            githubUrl={project.githubUrl}
+            codeLogo={project.codeLogo}
+            liveDemo={project.liveDemo}
           />
-        </div>
-
-        <div className="project-item">
-          <EcomShop
-            demoUrl={`https://ecom-shop-demo.netlify.app/`}
-            image={ecomShop}
-            githubUrl={`https://github.com/MDKolev/digital-shopping`}
-            codeLogo={codeLogo}
-            liveDemo={liveDemo}
-          />
-        </div>
-
-        <div className="project-item">
-          <Jsonplaceholder
-            demoUrl={`https://jsonplaceholder-api.netlify.app/`}
-            image={JsonplaceholderImage}
-            githubUrl={`https://github.com/MDKolev/jsonplaceholder-api`}
-            codeLogo={codeLogo}
-            liveDemo={liveDemo}
-          />
-        </div>
+        ))}
       </div>
     </div>
   );
